@@ -1,0 +1,206 @@
+"Build a beautifully designed, multi-page, React + Tailwind CSS frontend-only website for a newly launched IT consulting startup that offers modern tech services. The site should focus on visual appeal, clarity, and client engagement to create trust and allow visitors to explore the company vision and register interest. This is a static client-side site with zero backend at this stage, but the structure should be prepared for future backend/API integration."
+
+🔍 Context and Constraints:
+🚀 Client: Brand new IT Consulting Startup
+
+🛠 Purpose: Build trust and collect early client interest
+
+🧱 No backend or database — only frontend React code
+
+🎯 Goal: Create high-converting UI/UX, highly modular and professional
+
+🌗 Theme: Light + Dark Mode toggle
+
+📱 Fully Responsive — mobile-first design
+
+🔮 Future-Proof: Structure code for API/backend expansion later
+
+🖼️ Image/Text Data: Use dummy or placeholder data with modular JSON config
+
+📁 1. Tech Stack & Tools:
+✅ React.js (functional components, hooks)
+
+✅ React Router DOM v6+ (for multi-page routing)
+
+✅ Tailwind CSS (utility-first, dark mode, fully responsive)
+
+✅ Heroicons or Lucide for icons
+
+✅ Framer Motion (for optional smooth animations)
+
+✅ Headless UI (for accessibility-ready dropdowns/modals)
+
+🏗️ 2. Folder & Project Structure:
+bash
+Copy
+Edit
+src/
+├── assets/              # All static images and logos
+├── components/          # Reusable UI components (Navbar, Footer, CTA, Cards, etc.)
+├── pages/               # Page-level components (Home, Services, About, etc.)
+├── layouts/             # Page layouts (with navbar/footer wrap)
+├── context/             # Theme context (dark/light), global UI state
+├── routes/              # React Router definitions
+├── data/                # JSON files (services, case studies, FAQs)
+├── App.jsx              # Main App
+├── main.jsx             # Entry point
+├── tailwind.config.js   # Theme customization
+📄 3. Pages to Include:
+🏠 Home
+Hero Section with animated headline & CTA
+
+Intro to the startup’s vision/mission
+
+Brief services overview (3–4 cards with icons)
+
+Testimonials (fake, rotating slider)
+
+Newsletter registration section (non-functional but designed)
+
+Client trust badges/logos (dummy)
+
+🛠️ Services
+Modular cards for each service:
+
+IT Strategy Consulting
+
+Cloud Architecture
+
+MVP/Product Dev
+
+UI/UX Prototyping
+
+Each card expandable or links to modal or subpage
+
+🧠 About Us
+Story of the startup
+
+Vision + Values
+
+Founding team (cards with avatars, bios)
+
+Timeline or “Our Journey Begins” section
+
+🧰 Technologies
+Frontend, Backend, Cloud, DevOps stacks
+
+Tech logos with tooltips
+
+Categorized grid with filtering support
+
+📞 Contact
+Full form (name, email, company, message)
+
+Form is styled but non-functional for now (uses local state only)
+
+Social links and office location (dummy)
+
+📚 FAQs
+Accordion with questions like:
+
+“What services do you offer?”
+
+“How do I get started?”
+
+“Can I request a consultation?”
+
+Optional search or filter
+
+📄 Privacy & Terms
+Static content pages (linked from footer)
+
+⚠️ 404 Page
+Styled error with "Back to Home" button and illustration
+
+🎨 4. UI/UX Features:
+🌗 Dark/Light Mode Toggle
+
+Stored in localStorage
+
+Default based on system preference
+
+Toggle button in Navbar or Header
+
+📱 Mobile Responsive
+
+Hamburger menu for navigation
+
+Stackable cards and scrollable sliders
+
+✨ Animations (Optional)
+
+Smooth fade-in/slide-in with Framer Motion
+
+Scroll reveal on sections
+
+Hover and transition effects on buttons/cards
+
+📍 Navigation
+
+Sticky Navbar with active route highlight
+
+Scroll-to-top button on long pages
+
+🧠 Accessibility
+
+aria-labels, keyboard nav, alt text
+
+High contrast dark mode
+
+📦 5. Component System (Reusable):
+Component	Purpose
+<Navbar />	Responsive top bar with dark mode toggle
+<Footer />	Social links + static page links
+<ServiceCard />	Reusable cards on services page
+<TestimonialCard />	For rotating client feedback
+<FAQAccordion />	Accessible collapsible FAQ items
+<TeamCard />	Founders or team profiles
+<TechStackGrid />	Icons + filterable tools/tech section
+<ContactForm />	Styled form with client-side validation
+<CTASection />	Call-to-action blocks across pages
+<ThemeProvider />	Context API for toggling dark/light mode
+
+🔌 6. Backend Ready But Disabled:
+Feature	Built For Now	Connect Later	Notes
+Contact Form	✅ UI Ready	❌	Prepare POST route later
+Blog/Case Study	✅ Placeholder	❌	Pull from CMS/API later
+Auth/Signup	❌	✅	Not required now
+API Integration	❌	✅	Keep axios.js for prep
+
+⚙️ 7. Development Instructions:
+Dummy data should be stored in /data/*.json files
+
+Avoid hardcoded strings in components — use props and JSON-driven rendering
+
+All styles via Tailwind — no inline styles or custom CSS
+
+SEO best practices in head tags (react-helmet optional)
+
+Animate on scroll or section-load with Framer Motion or simple classes
+
+Keep code DRY, comment complex logic, and split into small units
+
+🧪 8. Optional Enhancements:
+🎬 Page transitions (fade/slide between routes)
+
+💡 Onboarding Modal or Announcement Banner
+
+🎨 Theme color customization (via Tailwind config)
+
+🔗 Scrollspy to highlight nav items while scrolling
+
+🔍 Search bar (on blog or FAQs)
+
+🎯 Deliverables Expected from AI or Developer:
+Full React + Tailwind frontend SPA (with React Router DOM)
+
+Working multi-page navigation
+
+All pages and components listed above
+
+Dark mode + responsive UI
+
+Dummy content for services, blogs, FAQs, etc.
+
+Clean, commented code ready for GitHub push or Vercel/Netlify deploy
+
