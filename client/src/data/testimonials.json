@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "role": "CTO",
+    "company": "InnovateTech",
+    "content": "TechFlow delivered an exceptional cloud migration strategy that reduced our infrastructure costs by 40% while improving performance. Their expertise is unmatched.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Marcus Rodriguez",
+    "role": "Founder",
+    "company": "StartupX",
+    "content": "The MVP they built for us was exactly what we needed to validate our concept. Fast, reliable, and beautifully designed. Highly recommended!",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Emily Watson",
+    "role": "VP Operations",
+    "company": "GrowthCorp",
+    "content": "Professional, responsive, and results-driven. TechFlow transformed our digital presence and streamlined our operations significantly.",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+    "rating": 5
+  }
+]

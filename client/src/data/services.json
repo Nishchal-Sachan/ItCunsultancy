@@ -1,0 +1,54 @@
+[
+  {
+    "id": "it-strategy",
+    "title": "IT Strategy Consulting",
+    "description": "Strategic technology planning and digital transformation roadmaps for sustainable growth.",
+    "longDescription": "Navigate the complex digital landscape with our strategic technology consulting. We analyze your current infrastructure, identify opportunities, and create comprehensive roadmaps for sustainable growth.",
+    "features": [
+      "Digital transformation planning",
+      "Technology assessment and audit",
+      "ROI optimization strategies",
+      "Risk management frameworks",
+      "Scalability planning"
+    ]
+  },
+  {
+    "id": "cloud-architecture",
+    "title": "Cloud Architecture",
+    "description": "Scalable cloud solutions with AWS, Azure, and GCP for optimal performance and cost efficiency.",
+    "longDescription": "Leverage the power of cloud computing with our expert architecture services. We design scalable, secure, and cost-effective cloud solutions tailored to your business needs.",
+    "features": [
+      "Multi-cloud strategy development",
+      "Security and compliance implementation",
+      "Cost optimization and monitoring",
+      "Migration planning and execution",
+      "DevOps integration"
+    ]
+  },
+  {
+    "id": "mvp-development",
+    "title": "MVP Development",
+    "description": "Rapid prototyping and development of minimum viable products to validate your business ideas.",
+    "longDescription": "Turn your ideas into reality with our MVP development services. We help you build, test, and validate your concepts quickly and efficiently.",
+    "features": [
+      "Rapid prototyping",
+      "User testing and feedback integration",
+      "Iterative development approach",
+      "Market validation strategies",
+      "Scalable foundation architecture"
+    ]
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design",
+    "description": "User-centered design and prototyping for exceptional digital experiences that drive engagement.",
+    "longDescription": "Create exceptional user experiences with our comprehensive UI/UX design services. We focus on user-centered design principles to drive engagement and conversion.",
+    "features": [
+      "User research and personas",
+      "Wireframing and prototyping",
+      "Visual design and branding",
+      "Usability testing",
+      "Responsive design implementation"
+    ]
+  }
+]

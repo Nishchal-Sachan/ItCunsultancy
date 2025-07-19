@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "frontend",
+    "icon": "R",
+    "color": "text-blue-500"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "category": "frontend",
+    "icon": "V",
+    "color": "text-green-500"
+  },
+  {
+    "id": 3,
+    "name": "Angular",
+    "category": "frontend",
+    "icon": "A",
+    "color": "text-red-500"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "category": "frontend",
+    "icon": "TS",
+    "color": "text-blue-600"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "category": "backend",
+    "icon": "N",
+    "color": "text-green-600"
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "category": "backend",
+    "icon": "P",
+    "color": "text-yellow-500"
+  },
+  {
+    "id": 7,
+    "name": "Go",
+    "category": "backend",
+    "icon": "Go",
+    "color": "text-blue-400"
+  },
+  {
+    "id": 8,
+    "name": "PostgreSQL",
+    "category": "backend",
+    "icon": "PG",
+    "color": "text-blue-700"
+  },
+  {
+    "id": 9,
+    "name": "AWS",
+    "category": "cloud",
+    "icon": "AWS",
+    "color": "text-orange-500"
+  },
+  {
+    "id": 10,
+    "name": "Azure",
+    "category": "cloud",
+    "icon": "Az",
+    "color": "text-blue-600"
+  },
+  {
+    "id": 11,
+    "name": "GCP",
+    "category": "cloud",
+    "icon": "GCP",
+    "color": "text-red-500"
+  },
+  {
+    "id": 12,
+    "name": "Kubernetes",
+    "category": "cloud",
+    "icon": "K8s",
+    "color": "text-blue-500"
+  },
+  {
+    "id": 13,
+    "name": "Docker",
+    "category": "devops",
+    "icon": "D",
+    "color": "text-blue-700"
+  },
+  {
+    "id": 14,
+    "name": "Jenkins",
+    "category": "devops",
+    "icon": "J",
+    "color": "text-gray-600"
+  },
+  {
+    "id": 15,
+    "name": "GitLab CI",
+    "category": "devops",
+    "icon": "GL",
+    "color": "text-orange-600"
+  },
+  {
+    "id": 16,
+    "name": "Terraform",
+    "category": "devops",
+    "icon": "TF",
+    "color": "text-purple-600"
+  }
+]

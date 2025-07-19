@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What services does TechFlow offer?",
+    "answer": "We offer comprehensive IT consulting services including IT strategy consulting, cloud architecture design, MVP development, and UI/UX design. Our goal is to help businesses navigate digital transformation and achieve their technology objectives efficiently."
+  },
+  {
+    "id": 2,
+    "question": "How do I get started with a project?",
+    "answer": "Getting started is easy! Simply contact us through our contact form, email, or phone. We'll schedule a free consultation to discuss your needs, understand your goals, and provide you with a customized proposal outlining our recommended approach and timeline."
+  },
+  {
+    "id": 3,
+    "question": "What is your typical project timeline?",
+    "answer": "Project timelines vary depending on scope and complexity. Strategy consulting projects typically take 2-4 weeks, MVP development ranges from 6-12 weeks, and cloud architecture projects can take 4-8 weeks. We'll provide detailed timelines during our initial consultation."
+  },
+  {
+    "id": 4,
+    "question": "Do you work with startups or only established companies?",
+    "answer": "We work with businesses of all sizes, from early-stage startups to established enterprises. Our flexible approach allows us to tailor our services to match your budget, timeline, and specific needs regardless of company size."
+  },
+  {
+    "id": 5,
+    "question": "What makes TechFlow different from other consulting firms?",
+    "answer": "Our fresh perspective as a startup allows us to be more agile and innovative in our approach. We combine deep technical expertise with modern methodologies, competitive pricing, and personalized attention that larger firms often can't provide. We're genuinely invested in your success."
+  },
+  {
+    "id": 6,
+    "question": "Can I request a consultation?",
+    "answer": "Absolutely! We offer free initial consultations to discuss your project requirements and how we can help. Contact us through our website, email, or phone to schedule your consultation at a time that works for you."
+  },
+  {
+    "id": 7,
+    "question": "What technologies do you specialize in?",
+    "answer": "We specialize in modern technologies including React, Node.js, Python, cloud platforms (AWS, Azure, GCP), containerization with Docker and Kubernetes, and DevOps tools. We stay current with industry trends to provide cutting-edge solutions."
+  },
+  {
+    "id": 8,
+    "question": "Do you provide ongoing support after project completion?",
+    "answer": "Yes, we offer various support packages to ensure your solutions continue to perform optimally. This includes maintenance, updates, monitoring, and technical support based on your specific needs and requirements."
+  }
+]
