@@ -39,13 +39,12 @@ const Footer: React.FC = () => {
           </div> */}
           {/* Company Logo & Tagline */}
             <div className="flex flex-col items-start md:col-span-1">
-            <div className="w-24 h-24 mb-3 rounded-lg shadow-lg bg-darkNavy flex items-center justify-center overflow-hidden">
-              <img
+            <div className="w-full h-24 mb-3 rounded-lg shadow-lg bg-darkNavy flex items-center justify-center overflow-hidden"></div>
+            <img
               src="/logo2.png"
               alt="Clatter Chatter Pvt. Ltd. Logo"
-              className="w-full h-full object-cover"
-              />
-            </div>
+              className="w-20 h-20 mb-3 rounded-lg shadow-lg object-cover"
+            />
             <span className="text-xl font-bold text-blue-400 mb-1">
               Clatter Chatter Pvt. Ltd.
             </span>
