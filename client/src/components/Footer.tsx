@@ -38,12 +38,14 @@ const Footer: React.FC = () => {
             </div>
           </div> */}
           {/* Company Logo & Tagline */}
-          <div className="flex flex-col items-start md:col-span-1">
-            <img
+            <div className="flex flex-col items-start md:col-span-1">
+            <div className="w-24 h-24 mb-3 rounded-lg shadow-lg bg-darkNavy flex items-center justify-center overflow-hidden">
+              <img
               src="/logo2.png"
               alt="Clatter Chatter Pvt. Ltd. Logo"
-              className="w-16 h-16 mb-3 rounded-lg shadow-lg bg-white object-contain"
-            />
+              className="w-full h-full object-cover"
+              />
+            </div>
             <span className="text-xl font-bold text-blue-400 mb-1">
               Clatter Chatter Pvt. Ltd.
             </span>
@@ -56,27 +58,27 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4 mt-2">
               <a
-                href="#"
-                className="social-link hover:text-blue-400 transition-colors"
+              href="#"
+              className="social-link hover:text-blue-400 transition-colors"
               >
-                <Twitter className="w-5 h-5" />
+              <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://www.linkedin.com/company/clatterchatter-edtech-private-limited/posts/?feedView=all"
-                className="social-link hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/clatterchatter-edtech-private-limited/posts/?feedView=all"
+              className="social-link hover:text-blue-400 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
               >
-                <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
-                className="social-link hover:text-blue-400 transition-colors"
+              href="#"
+              className="social-link hover:text-blue-400 transition-colors"
               >
-                <Github className="w-5 h-5" />
+              <Github className="w-5 h-5" />
               </a>
             </div>
-          </div>
+            </div>
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
