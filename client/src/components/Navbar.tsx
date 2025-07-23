@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                   <img
                     src="/logo.png"
                     alt="Clatter Chatter Logo"
-                    className="h-20 w-20 rounded-full shadow-md border border-blue-400 dark:border-blue-300 bg-darkNavy dark:bg-slate-900"
+                    className="h-25 w-25 shadow-md bg-darkNavy dark:bg-slate-900"
                   />
                   <span className="text-2xl font-extrabold text-blue-600 dark:text-blue-400 tracking-tight drop-shadow-sm">
                     Clatter Chatter

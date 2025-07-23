@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <img
               src="/logo2.png"
               alt="Clatter Chatter Pvt. Ltd. Logo"
-              className="w-20 h-20 mr-4 rounded-lg shadow-lg bg-darkNavy object-contain"
+              className="w-28 h-28 mr-4 rounded-lg shadow-lg bg-darkNavy object-contain"
             />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-blue-400 mb-1">
