@@ -38,22 +38,52 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <p className="text-sm mt-4">
-            Email:{" "}
-            <a
-              href="mailto:helpdesk@clatterchatteredtech.com"
-              className="text-blue-400"
-            >
-              helpdesk@clatterchatteredtech.com
-            </a>
-            <br />
-            Phone (US): +1 (917) 521-4004
-            <br />
-            Phone (IN): +91 (885) 815-1144
-            <br />
-            Address: 14 Singh Villa, Gangapur Colony, Yashoda Nagar, Kanpur
-            Nagar-208011, Uttar Pradesh
-          </p>
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  to="/"
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/careers"
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  Careers
+                </Link>
+              </li>
+            </ul>
+          </div>
           {/* Contact Info */}
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
