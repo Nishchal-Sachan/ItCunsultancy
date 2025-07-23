@@ -24,18 +24,21 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0">
-                <span className="flex items-center space-x-2">
-                  <img
-                    src="/logo.png"
-                    alt="Clatter Chatter Logo"
-                    className="h-10 w-10 shadow-md bg-darkNavy dark:bg-slate-900"
-                  />
-                  <span className="text-2xl font-extrabold text-blue-600 dark:text-blue-400 tracking-tight drop-shadow-sm">
-                    Clatter Chatter
-                  </span>
-                </span>
+          <div className="flex items-center space-x-4">
+            <Link to="/" className="flex items-center space-x-3">
+              <img
+                src="/logo.png" // make sure file name matches
+                alt="Clatter Chatter Logo"
+                className="h-14 w-14 object-contain shadow rounded" // ⬅️ Bigger size
+              />
+              <div>
+                <div className="text-3xl font-extrabold text-blue-600 tracking-tight">
+                  Clatter Chatter
+                </div>
+                <div className="text-sm font-medium text-gray-500 -mt-1">
+                  Your Need, Our Solution
+                </div>
+              </div>
             </Link>
           </div>
 
