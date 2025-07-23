@@ -17,7 +17,7 @@ const Home: React.FC = () => {
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-6xl animate-slide-up">
                 Grow your career and IT profile{" "}
                 <span className="text-blue-600 dark:text-blue-400">
-                  Modern Tech Solutions
+                  with Clatter Chatter
                 </span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300 animate-slide-up">
@@ -157,7 +157,7 @@ const Home: React.FC = () => {
                 Ready to Transform Your Business?
               </h2>
               <p className="mt-4 text-lg text-blue-100">
-                Join innovative companies that trust TechFlow for their digital
+                Join innovative companies that trust Clatter Chatter for their digital
                 transformation journey. Get expert insights and exclusive
                 updates.
               </p>
