@@ -17,13 +17,13 @@ const Terms: React.FC = () => {
           <div className="prose prose-slate dark:prose-invert max-w-none">
             <h2>Agreement to Terms</h2>
             <p>
-              By accessing and using TechFlow Consulting services, you accept and agree to be bound 
+              By accessing and using ClatterChatter EdTech services, you accept and agree to be bound 
               by the terms and provision of this agreement.
             </p>
 
             <h2>Services</h2>
             <p>
-              TechFlow provides IT consulting services including but not limited to:
+              ClatterChatter EdTech provides IT consulting services including but not limited to:
             </p>
             <ul>
               <li>IT Strategy Consulting</li>
@@ -46,7 +46,7 @@ const Terms: React.FC = () => {
             <h2>Intellectual Property</h2>
             <p>
               The service and its original content, features, and functionality are and will remain 
-              the exclusive property of TechFlow and its licensors. The service is protected by 
+              the exclusive property of ClatterChatter EdTech and its licensors. The service is protected by 
               copyright, trademark, and other laws.
             </p>
 
@@ -62,7 +62,7 @@ const Terms: React.FC = () => {
 
             <h2>Limitation of Liability</h2>
             <p>
-              To the maximum extent permitted by law, TechFlow shall not be liable for any indirect, 
+              To the maximum extent permitted by law, ClatterChatter EdTech shall not be liable for any indirect, 
               incidental, special, consequential, or punitive damages, or any loss of profits or 
               revenues, whether incurred directly or indirectly.
             </p>

@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
               />
               <div>
                 <div className="text-3xl font-extrabold text-blue-600 tracking-tight">
-                  Clatter Chatter
+                  ClatterChatter EdTech
                 </div>
                 <div className="text-sm font-medium text-gray-500 -mt-1">
                   Your Need, Our Solution

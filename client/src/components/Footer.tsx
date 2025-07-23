@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-blue-400 mb-1">
-                Clatter Chatter Pvt. Ltd.
+                ClatterChatter EdTech Pvt. Ltd.
               </span>
               <p className="text-sm text-slate-400 mb-2">
                 Your Need Our Solution
@@ -280,7 +280,7 @@ const Footer: React.FC = () => {
         </p>
         <p className="text-xs text-gray-400 mt-2">
           Note: All consultancy advice is based on industry best practices.
-          Clatter Chatter Pvt. Ltd. does not guarantee project outcomes,
+          Clatter Chatter EdTech Pvt. Ltd. does not guarantee project outcomes,
           business success, or personal results. All service delivery timelines
           are estimates and may vary based on scope and client communication.
         </p>
@@ -288,10 +288,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-slate-800 pt-8 mt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm">
-              © 2024 TechFlow Consulting. All rights reserved.
-            </p>
-            <p className="text-slate-400 text-sm mt-4 sm:mt-0">
-              Built with ❤️ for modern businesses
+              © 2024 ClatterChatter EdTech pvt.ltd. All rights reserved.
             </p>
           </div>
         </div>
