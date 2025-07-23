@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
               </span>
               <p className="text-sm text-slate-400">Your Need Our Solution</p>
             </div>
-            <p className="text-slate-300 text-sm leading-relaxed">
-              Transforming businesses through innovative technology solutions
-              and strategic consulting.
+            <p className="text-slate-300 mb-4">
+              We are a leading IT consultancy firm specializing in modern tech
+              solutions for businesses of all sizes.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="social-link">
@@ -99,20 +99,27 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <span className="font-medium text-slate-300">Phone (US):</span>{" "}
-                <a href="tel:+19175214004" className="text-blue-400 hover:underline">
+                <a
+                  href="tel:+19175214004"
+                  className="text-blue-400 hover:underline"
+                >
                   +1 (917) 521-4004
                 </a>
               </li>
               <li>
                 <span className="font-medium text-slate-300">Phone (IN):</span>{" "}
-                <a href="tel:+918858151144" className="text-blue-400 hover:underline">
+                <a
+                  href="tel:+918858151144"
+                  className="text-blue-400 hover:underline"
+                >
                   +91 (885) 815-1144
                 </a>
               </li>
               <li>
                 <span className="font-medium text-slate-300">Address:</span>{" "}
                 <span className="text-slate-400">
-                  14 Singh Villa, Gangapur Colony, Yashoda Nagar, Kanpur Nagar-208011, Uttar Pradesh
+                  14 Singh Villa, Gangapur Colony, Yashoda Nagar, Kanpur
+                  Nagar-208011, Uttar Pradesh
                 </span>
               </li>
             </ul>
