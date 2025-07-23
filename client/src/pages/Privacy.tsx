@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Privacy: React.FC = () => {
   return (
@@ -17,28 +17,37 @@ const Privacy: React.FC = () => {
           <div className="prose prose-slate dark:prose-invert max-w-none">
             <h2>Information We Collect</h2>
             <p>
-              We collect information you provide directly to us, such as when you create an account, 
-              contact us, or use our services. This may include your name, email address, phone number, 
-              company information, and any other information you choose to provide.
+              We collect information you provide directly to us, such as when
+              you create an account, contact us, or use our services. This may
+              include your name, email address, phone number, company
+              information, and any other information you choose to provide.
             </p>
 
             <h2>How We Use Your Information</h2>
-            <p>
-              We use the information we collect to:
-            </p>
+            <p>We use the information we collect to:</p>
             <ul>
               <li>Provide, maintain, and improve our services</li>
               <li>Process transactions and send related information</li>
-              <li>Send technical notices, updates, security alerts, and support messages</li>
-              <li>Respond to your comments, questions, and customer service requests</li>
-              <li>Communicate with you about products, services, offers, and events</li>
+              <li>
+                Send technical notices, updates, security alerts, and support
+                messages
+              </li>
+              <li>
+                Respond to your comments, questions, and customer service
+                requests
+              </li>
+              <li>
+                Communicate with you about products, services, offers, and
+                events
+              </li>
             </ul>
 
             <h2>Information Sharing</h2>
             <p>
-              We do not sell, trade, or otherwise transfer your personal information to third parties 
-              without your consent, except as described in this policy. We may share your information in 
-              the following circumstances:
+              We do not sell, trade, or otherwise transfer your personal
+              information to third parties without your consent, except as
+              described in this policy. We may share your information in the
+              following circumstances:
             </p>
             <ul>
               <li>With your consent</li>
@@ -49,14 +58,13 @@ const Privacy: React.FC = () => {
 
             <h2>Data Security</h2>
             <p>
-              We implement appropriate technical and organizational security measures to protect your 
-              personal information against unauthorized access, alteration, disclosure, or destruction.
+              We implement appropriate technical and organizational security
+              measures to protect your personal information against unauthorized
+              access, alteration, disclosure, or destruction.
             </p>
 
             <h2>Your Rights</h2>
-            <p>
-              You have the right to:
-            </p>
+            <p>You have the right to:</p>
             <ul>
               <li>Access your personal information</li>
               <li>Correct inaccurate information</li>
@@ -67,12 +75,18 @@ const Privacy: React.FC = () => {
 
             <h2>Contact Us</h2>
             <p>
-              If you have any questions about this Privacy Policy, please contact us at:
+              If you have any questions about this Privacy Policy, please
+              contact us at:
             </p>
             <ul>
-              <li>Email: privacy@techflow.dev</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Address: San Francisco, CA</li>
+              <li>Email:helpdesk@clatterchatteredtech.com</li>
+              <li>Phone (US): +1 (917) 521-4004</li>
+              <li>Phone (IN): +91 (885) 815-1144</li>
+              <li>
+                Address: 14 Singh Villa, Gangapur Colony,
+                <br /> Yashoda Nagar, Kanpur Nagar-208011,
+                <br /> Uttar Pradesh
+              </li>
             </ul>
           </div>
         </div>
