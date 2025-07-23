@@ -11,7 +11,7 @@
       "Risk management frameworks",
       "Scalability planning"
     ],
-    "pricing": "$99"
+    "pricing": "Starting from INR 8499 or USD 99 onwards"
   },
   {
     "id": "cloud-architecture",
@@ -25,7 +25,7 @@
       "Migration planning and execution",
       "DevOps integration"
     ],
-    "pricing": "$299"
+    "pricing": "tarting from INR 2499 or USD 299 onwardsdated pri"
   },
   {
     "id": "mvp-development",
@@ -39,7 +39,7 @@
       "Market validation strategies",
       "Scalable foundation architecture"
     ],
-    "pricing": "$599"
+    "pricing": "tarting from INR 4999 or USD 599 onwards"
   },
   {
     "id": "ui-ux-design",
@@ -53,6 +53,6 @@
       "Usability testing",
       "Responsive design implementation"
     ],
-    "pricing": "$699"
+    "pricing": "tarting from INR 6999 or USD 699 onwards"
   }
 ]
