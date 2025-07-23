@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
             <div className="lg:col-span-6">
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-6xl animate-slide-up">
-                Transform Your Business with{" "}
+                Grow your career and IT profile{" "}
                 <span className="text-blue-600 dark:text-blue-400">
                   Modern Tech Solutions
                 </span>

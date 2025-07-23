@@ -1,11 +1,21 @@
-import React from 'react';
-import { Lightbulb, Cloud, Zap, Palette, Check } from 'lucide-react';
-import servicesData from '../data/services.json';
+import React from "react";
+import { Lightbulb, Cloud, Zap, Palette, Check } from "lucide-react";
+import servicesData from "../data/services.json";
 
 const Services: React.FC = () => {
   const icons = [Lightbulb, Cloud, Zap, Palette];
-  const iconColors = ['text-blue-600 dark:text-blue-400', 'text-emerald-600 dark:text-emerald-400', 'text-purple-600 dark:text-purple-400', 'text-orange-600 dark:text-orange-400'];
-  const iconBgColors = ['bg-blue-100 dark:bg-blue-900', 'bg-emerald-100 dark:bg-emerald-900', 'bg-purple-100 dark:bg-purple-900', 'bg-orange-100 dark:bg-orange-900'];
+  const iconColors = [
+    "text-blue-600 dark:text-blue-400",
+    "text-emerald-600 dark:text-emerald-400",
+    "text-purple-600 dark:text-purple-400",
+    "text-orange-600 dark:text-orange-400",
+  ];
+  const iconBgColors = [
+    "bg-blue-100 dark:bg-blue-900",
+    "bg-emerald-100 dark:bg-emerald-900",
+    "bg-purple-100 dark:bg-purple-900",
+    "bg-orange-100 dark:bg-orange-900",
+  ];
 
   return (
     <div>
@@ -29,15 +39,27 @@ const Services: React.FC = () => {
               return (
                 <div key={service.id} className="service-detail-card">
                   <div className="flex items-center mb-6">
-                    <div className={`flex items-center justify-center w-16 h-16 ${iconBgColor} rounded-2xl mr-4`}>
+                    <div
+                      className={`flex items-center justify-center w-16 h-16 ${iconBgColor} rounded-2xl mr-4`}
+                    >
                       <Icon className={`w-8 h-8 ${iconColor}`} />
                     </div>
-                    <h3 className="text-2xl font-semibold text-slate-900 dark:text-white">{service.title}</h3>
+                    <h3 className="text-2xl font-semibold text-slate-900 dark:text-white">
+                      {service.title}
+                    </h3>
                   </div>
-                  <p className="text-slate-600 dark:text-slate-300 mb-6">{service.longDescription}</p>
+                  <p className="text-green-600 font-bold mb-2">
+                    Pricing: {service.pricing}
+                  </p>
+                  <p className="text-slate-600 dark:text-slate-300 mb-6">
+                    {service.longDescription}
+                  </p>
                   <ul className="space-y-3 mb-6">
                     {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-slate-600 dark:text-slate-300">
+                      <li
+                        key={featureIndex}
+                        className="flex items-center text-slate-600 dark:text-slate-300"
+                      >
                         <Check className="w-5 h-5 text-green-500 mr-3" />
                         {feature}
                       </li>
