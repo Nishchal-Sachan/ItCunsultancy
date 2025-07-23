@@ -38,43 +38,45 @@ const Footer: React.FC = () => {
             </div>
           </div> */}
           {/* Company Logo & Tagline */}
-          <div className="flex flex-col items-start md:col-span-1">
+          <div className="flex items-center md:col-span-1">
             <img
               src="/logo2.png"
               alt="Clatter Chatter Pvt. Ltd. Logo"
-              className="w-30 h-30 mb-3 rounded-lg shadow-lg bg-darkNavy object-contain"
+              className="w-20 h-20 mr-4 rounded-lg shadow-lg bg-darkNavy object-contain"
             />
-            <span className="text-xl font-bold text-blue-400 mb-1">
-              Clatter Chatter Pvt. Ltd.
-            </span>
-            <p className="text-sm text-slate-400 mb-2">
-              Your Need Our Solution
-            </p>
-            <p className="text-slate-300 mb-4">
-              We are a leading IT consultancy firm specializing in modern tech
-              solutions for businesses of all sizes.
-            </p>
-            <div className="flex space-x-4 mt-2">
-              <a
-                href="#"
-                className="social-link hover:text-blue-400 transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/clatterchatter-edtech-private-limited/posts/?feedView=all"
-                className="social-link hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="social-link hover:text-blue-400 transition-colors"
-              >
-                <Github className="w-5 h-5" />
-              </a>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold text-blue-400 mb-1">
+                Clatter Chatter Pvt. Ltd.
+              </span>
+              <p className="text-sm text-slate-400 mb-2">
+                Your Need Our Solution
+              </p>
+              <p className="text-slate-300 mb-4">
+                We are a leading IT consultancy firm specializing in modern tech
+                solutions for businesses of all sizes.
+              </p>
+              <div className="flex space-x-4 mt-2">
+                <a
+                  href="#"
+                  className="social-link hover:text-blue-400 transition-colors"
+                >
+                  <Twitter className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/clatterchatter-edtech-private-limited/posts/?feedView=all"
+                  className="social-link hover:text-blue-400 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <a
+                  href="#"
+                  className="social-link hover:text-blue-400 transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           </div>
           {/* Quick Links */}
