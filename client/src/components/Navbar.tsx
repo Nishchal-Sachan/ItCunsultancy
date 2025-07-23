@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sun, Moon } from 'lucide-react';
-import { useTheme } from '../context/ThemeContext';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "../context/ThemeContext";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,12 +9,12 @@ const Navbar: React.FC = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Services', href: '/services' },
-    { name: 'About', href: '/about' },
-    { name: 'Technologies', href: '/technologies' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'FAQs', href: '/faqs' },
+    { name: "Home", href: "/" },
+    { name: "Services", href: "/services" },
+    { name: "About", href: "/about" },
+    { name: "Technologies", href: "/technologies" },
+    { name: "Contact", href: "/contact" },
+    { name: "FAQs", href: "/faqs" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -26,7 +26,9 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">TechFlow</span>
+              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                Clatter Chatter
+              </span>
             </Link>
           </div>
 
@@ -37,7 +39,7 @@ const Navbar: React.FC = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`nav-link ${isActive(item.href) ? 'active' : ''}`}
+                  className={`nav-link ${isActive(item.href) ? "active" : ""}`}
                 >
                   {item.name}
                 </Link>
@@ -52,7 +54,7 @@ const Navbar: React.FC = () => {
               className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
               aria-label="Toggle theme"
             >
-              {theme === 'dark' ? (
+              {theme === "dark" ? (
                 <Sun className="w-5 h-5" />
               ) : (
                 <Moon className="w-5 h-5" />
@@ -83,7 +85,9 @@ const Navbar: React.FC = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`mobile-nav-link ${isActive(item.href) ? 'active' : ''}`}
+                className={`mobile-nav-link ${
+                  isActive(item.href) ? "active" : ""
+                }`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

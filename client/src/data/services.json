@@ -10,7 +10,8 @@
       "ROI optimization strategies",
       "Risk management frameworks",
       "Scalability planning"
-    ]
+    ],
+    "pricing": "$99"
   },
   {
     "id": "cloud-architecture",
@@ -23,7 +24,8 @@
       "Cost optimization and monitoring",
       "Migration planning and execution",
       "DevOps integration"
-    ]
+    ],
+    "pricing": "$299"
   },
   {
     "id": "mvp-development",
@@ -36,7 +38,8 @@
       "Iterative development approach",
       "Market validation strategies",
       "Scalable foundation architecture"
-    ]
+    ],
+    "pricing": "$599"
   },
   {
     "id": "ui-ux-design",
@@ -49,6 +52,7 @@
       "Visual design and branding",
       "Usability testing",
       "Responsive design implementation"
-    ]
+    ],
+    "pricing": "$699"
   }
 ]

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Lightbulb, Cloud, Zap, Palette } from 'lucide-react';
-import ServiceCard from '../components/ServiceCard';
-import TestimonialCard from '../components/TestimonialCard';
-import servicesData from '../data/services.json';
-import testimonialsData from '../data/testimonials.json';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Lightbulb, Cloud, Zap, Palette } from "lucide-react";
+import ServiceCard from "../components/ServiceCard";
+import TestimonialCard from "../components/TestimonialCard";
+import servicesData from "../data/services.json";
+import testimonialsData from "../data/testimonials.json";
 
 const Home: React.FC = () => {
   return (
@@ -15,11 +15,15 @@ const Home: React.FC = () => {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
             <div className="lg:col-span-6">
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-6xl animate-slide-up">
-                Transform Your Business with{' '}
-                <span className="text-blue-600 dark:text-blue-400">Modern Tech Solutions</span>
+                Transform Your Business with{" "}
+                <span className="text-blue-600 dark:text-blue-400">
+                  Modern Tech Solutions
+                </span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300 animate-slide-up">
-                We're a cutting-edge IT consulting startup that empowers businesses through innovative cloud architecture, MVP development, and digital transformation strategies.
+                We're a cutting-edge IT consulting startup that empowers
+                businesses through innovative cloud architecture, MVP
+                development, and digital transformation strategies.
               </p>
               <div className="mt-10 flex items-center gap-x-6 animate-slide-up">
                 <Link to="/contact" className="btn-primary">
@@ -29,18 +33,26 @@ const Home: React.FC = () => {
                   Learn More
                 </Link>
               </div>
-              
+
               {/* Trust Badges */}
               <div className="mt-12 animate-slide-up">
-                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Trusted by innovative companies</p>
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">
+                  Trusted by innovative companies
+                </p>
                 <div className="flex items-center space-x-8 grayscale opacity-60">
-                  <div className="text-2xl font-bold text-slate-400">Startup A</div>
-                  <div className="text-2xl font-bold text-slate-400">Tech Co</div>
-                  <div className="text-2xl font-bold text-slate-400">Innovation Inc</div>
+                  <div className="text-2xl font-bold text-slate-400">
+                    Startup A
+                  </div>
+                  <div className="text-2xl font-bold text-slate-400">
+                    Tech Co
+                  </div>
+                  <div className="text-2xl font-bold text-slate-400">
+                    Innovation Inc
+                  </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="mt-16 lg:mt-0 lg:col-span-6">
               <div className="relative animate-fade-in">
                 <img
@@ -48,7 +60,7 @@ const Home: React.FC = () => {
                   alt="Modern tech workspace with laptops and code"
                   className="rounded-2xl shadow-2xl w-full h-auto"
                 />
-                
+
                 {/* Floating cards for visual appeal */}
                 <div className="absolute -top-4 -left-4 bg-white dark:bg-slate-800 rounded-xl p-4 shadow-lg animate-scale-in">
                   <div className="flex items-center space-x-2">
@@ -56,7 +68,7 @@ const Home: React.FC = () => {
                     <span className="text-sm font-medium">Cloud Ready</span>
                   </div>
                 </div>
-                
+
                 <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white rounded-xl p-4 shadow-lg animate-scale-in">
                   <div className="text-2xl font-bold">99.9%</div>
                   <div className="text-sm opacity-90">Uptime</div>
@@ -82,14 +94,25 @@ const Home: React.FC = () => {
           <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {servicesData.slice(0, 4).map((service, index) => {
               const icons = [Lightbulb, Cloud, Zap, Palette];
-              const iconColors = ['text-blue-600 dark:text-blue-400', 'text-emerald-600 dark:text-emerald-400', 'text-purple-600 dark:text-purple-400', 'text-orange-600 dark:text-orange-400'];
-              const iconBgColors = ['bg-blue-100 dark:bg-blue-900', 'bg-emerald-100 dark:bg-emerald-900', 'bg-purple-100 dark:bg-purple-900', 'bg-orange-100 dark:bg-orange-900'];
-              
+              const iconColors = [
+                "text-blue-600 dark:text-blue-400",
+                "text-emerald-600 dark:text-emerald-400",
+                "text-purple-600 dark:text-purple-400",
+                "text-orange-600 dark:text-orange-400",
+              ];
+              const iconBgColors = [
+                "bg-blue-100 dark:bg-blue-900",
+                "bg-emerald-100 dark:bg-emerald-900",
+                "bg-purple-100 dark:bg-purple-900",
+                "bg-orange-100 dark:bg-orange-900",
+              ];
+
               return (
                 <ServiceCard
                   key={service.id}
                   icon={icons[index]}
                   title={service.title}
+                  pricing={service.pricing}
                   description={service.description}
                   iconColor={iconColors[index]}
                   iconBgColor={iconBgColors[index]}
@@ -134,14 +157,18 @@ const Home: React.FC = () => {
                 Ready to Transform Your Business?
               </h2>
               <p className="mt-4 text-lg text-blue-100">
-                Join innovative companies that trust TechFlow for their digital transformation journey. Get expert insights and exclusive updates.
+                Join innovative companies that trust TechFlow for their digital
+                transformation journey. Get expert insights and exclusive
+                updates.
               </p>
             </div>
-            
+
             <div className="mt-8 lg:mt-0">
               <form className="sm:flex">
                 <div className="min-w-0 flex-1">
-                  <label htmlFor="email" className="sr-only">Email address</label>
+                  <label htmlFor="email" className="sr-only">
+                    Email address
+                  </label>
                   <input
                     type="email"
                     id="email"
