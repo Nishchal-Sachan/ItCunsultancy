@@ -28,9 +28,9 @@ const Navbar: React.FC = () => {
             <Link to="/" className="flex-shrink-0">
               <span className="flex items-center space-x-2">
                 <img
-                  src="/assets/logo.png"
+                  src="/logo.png"
                   alt="Clatter Chatter Logo"
-                  className="h-10 w-10 rounded-full shadow-md border border-blue-400 dark:border-blue-300 bg-white dark:bg-slate-900"
+                  className="h-10 w-10 rounded-full shadow-md border border-blue-400 dark:border-blue-300 bg-darkNavy dark:bg-slate-900"
                 />
                 <span className="text-2xl font-extrabold text-blue-600 dark:text-blue-400 tracking-tight drop-shadow-sm">
                   Clatter Chatter
