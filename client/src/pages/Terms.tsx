@@ -78,9 +78,14 @@ const Terms: React.FC = () => {
               Questions about the Terms of Service should be sent to us at:
             </p>
             <ul>
-              <li>Email: legal@techflow.dev</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Address: San Francisco, CA</li>
+              <li>Email:helpdesk@clatterchatteredtech.com</li>
+              <li>Phone (US): +1 (917) 521-4004</li>
+              <li>Phone (IN): +91 (885) 815-1144</li>
+              <li>
+                Address: 14 Singh Villa, Gangapur Colony,
+                <br /> Yashoda Nagar, Kanpur Nagar-208011,
+                <br /> Uttar Pradesh
+              </li>
             </ul>
           </div>
         </div>
